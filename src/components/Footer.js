@@ -1,7 +1,6 @@
 import React from "react";
-import axios from "axios";
 
-const Footer = props => {
+const Footer = ({ copyright }) => {
     return (
         <div>
             <footer>
@@ -9,6 +8,7 @@ const Footer = props => {
                     Data acquired from
                     {' '}
                     <a href='https://api.nasa.gov' target='_blank'>NASA Open APIs</a>
+                    <p>{copyright && `Image Copyright: ${copyright}`}</p>
                 </p>
             </footer>
         </div>

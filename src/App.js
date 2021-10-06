@@ -20,11 +20,14 @@ function App() {
   }, [])
 
   return (
-    <div className="App">
-      <Header />
-      <Content data={data}/>
-      <Footer />
-    </div>
+    data.length === 0
+      ? <h2>Loading...</h2>
+      :
+      <div className="App">
+        <Header />
+        <Content data={data}/>
+        <Footer copyright={data.copyright}/>
+      </div>
   );
 }
 
