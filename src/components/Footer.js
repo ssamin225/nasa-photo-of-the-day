@@ -7,9 +7,9 @@ const Footer = ({ copyright }) => {
                 <p>
                     Data acquired from
                     {' '}
-                    <a href='https://api.nasa.gov' target='_blank'>NASA Open APIs</a>
-                    <p>{copyright && `Image Copyright: ${copyright}`}</p>
+                    <a href='https://api.nasa.gov' target='_blank' rel='noopener noreferrer'>NASA Open APIs</a>
                 </p>
+                <p>{copyright && `Image Copyright: ${copyright}`}</p>
             </footer>
         </div>
     )
