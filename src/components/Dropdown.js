@@ -23,6 +23,7 @@ const Dropdown = ({ setDate }) => {
         <div>
             <form onChange={handleChange}>
                 <label>Pick a date:</label>
+                {' '}
                 <select>
                     {datesArray.map((date, i) =>
                         <option key={i+1} value={date}>{date}</option>
