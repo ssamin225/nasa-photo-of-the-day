@@ -3,7 +3,13 @@ import styled from "styled-components";
 import Dropdown from "./Dropdown";
 
 const StyledHeader = styled.div`
-    background-color: #3e4444;
+    background-color: #b9936c;
+    color: white;
+    padding: 2.5%;
+
+    label {
+        font-size: 1.1rem;
+    }
 `
 
 const Header = props => {

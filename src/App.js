@@ -1,17 +1,28 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { BASE_URL, API_KEY } from "./constants";
-import Header from "./components/Header";
+import Header from "./components/header/Header";
 import Content from "./components/Content";
 import Footer from "./components/Footer";
 import styled from "styled-components";
 
 const StyledApp = styled.div`
-  background-color: #405d27;
+  background-color: #dac292;
 
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2%;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
   .container {
-    width: 70%;
-    background-color: #82b74b;
+    width: 75%;
+    background-color: #e3dcc1;
     text-align: center;
     margin: auto;
   }
