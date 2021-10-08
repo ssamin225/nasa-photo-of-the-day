@@ -30,6 +30,18 @@ const StyledApp = styled.div`
   .bold-text {
     font-weight: bold;
   }
+
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+    .container {
+      width: 100%
+    }
+  }
 `
 
 function App() {

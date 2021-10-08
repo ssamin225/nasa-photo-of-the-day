@@ -18,6 +18,13 @@ const StyledContent = styled.div`
         text-align: left;
         text-indent: 2rem;
     }
+
+    @media (max-width: 550px) {
+        img {
+          max-width: 98%;
+          border: none;
+        }
+      }
 `
 
 const Content = ({ data }) => {
