@@ -26,6 +26,10 @@ const StyledApp = styled.div`
     text-align: center;
     margin: auto;
   }
+
+  .bold-text {
+    font-weight: bold;
+  }
 `
 
 function App() {

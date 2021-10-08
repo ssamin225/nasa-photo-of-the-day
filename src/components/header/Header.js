@@ -6,6 +6,7 @@ const StyledHeader = styled.div`
     background-color: #b9936c;
     color: white;
     padding: 2.5%;
+    border: 5px solid burlyWood;
 
     label {
         font-size: 1.1rem;

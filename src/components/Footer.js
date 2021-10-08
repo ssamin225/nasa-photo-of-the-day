@@ -1,8 +1,20 @@
 import React from "react";
+import styled from "styled-components";
+
+const StyledFooter = styled.div`
+    background-color: #c4b7a6;
+    padding: 2.5%;
+    border-top: 2px solid crimson;
+    color: #4d4d4d;
+
+    p {
+        padding: 0.2%;
+    }
+`
 
 const Footer = ({ copyright }) => {
     return (
-        <div>
+        <StyledFooter>
             <footer>
                 <p>
                     Data acquired from
@@ -11,7 +23,7 @@ const Footer = ({ copyright }) => {
                 </p>
                 <p>{copyright && `Image Copyright: ${copyright}`}</p>
             </footer>
-        </div>
+        </StyledFooter>
     )
 }
 
